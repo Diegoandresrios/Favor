@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Trocchi&display=swap');
+
+h1 {
+    color: rgb(255, 0, 64);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Rubik Beastly', cursive;
+
+}
+
+.caja {
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px; 
+    float: left;
+}
+
+.caja.serif {
+
+    background-color: #5a189a;
+}
+
+.caja.san_serif {
+
+    background-color: turquoise;
+}
+
+.caja.monospace {
+    background-color: pink;
+}
+
+.caja.cursive {
+    background-color: orange;
+}
+
+.fuentes_times {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 25px; /* 16 px el valor por default en los navegadores */
+}
+
+.fuente_georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em; /* 1em es casi = a 16px */
+}
+
+.fuente_arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 3vw; /*view width  (viewport) 1vw= 1% esto es para que el tamaño de la fuente cambien respecto al ancho de la pantalla */
+}
+
+.fuente_verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.fuente_courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fuente_lucida {
+    font-family: "Lucida Handwriting", cursive;
+}
